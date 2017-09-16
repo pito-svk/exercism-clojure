@@ -6,9 +6,7 @@
     \G \C
     \A \U
     \T \A
-    (assert false))
-)
+    (assert false)))
 
 (defn to-rna [sequence]
-  (apply str (map nucleotide-to-rna sequence))
-)
+  (apply str (map nucleotide-to-rna sequence)))
